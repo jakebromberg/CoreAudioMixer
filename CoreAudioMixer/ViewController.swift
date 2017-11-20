@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func timerTick(_ sender:Timer?) {
+    @objc func timerTick(_ sender:Timer?) {
         if audioManager.isPlaying() {
             //Get the frequency data from the audio manager and show on horizontal bar graph
             var size:UInt32 = 0

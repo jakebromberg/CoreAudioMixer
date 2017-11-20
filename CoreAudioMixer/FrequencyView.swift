@@ -10,8 +10,8 @@ import UIKit
 
 class FrequencyView: UIView {
 
-    var barViews:[UIView] = []
-    var labelView:UILabel!
+    var barViews: [UIView] = []
+    var labelView: UILabel!
     
     /*
     // Only override drawRect: if you perform custom drawing.
